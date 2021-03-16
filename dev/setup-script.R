@@ -46,7 +46,7 @@ install.packages("devtools", force = T)
 
 
 ## Add a package
-usethis::use_package( "dplyr" )
+# usethis::use_package( "dplyr" )
 # remeber to add it to ROXYGEN or NAMESPACE:
 #' @import dplyr  # ROXYGEN
 #' import(dplyr)  # NAMESPACE
@@ -57,6 +57,9 @@ usethis::use_namespace(roxygen = TRUE)
 devtools::document() # to fill NAMESPACE and documentation with ROXYGEN comments
 # or roxygen2::roxygenise() # converts roxygen comments to .Rd files.
 # or [Ctrl + Shift + D] in RStudio
+
+# insert the documentation over a function definition Ctrl + Shift + Alt + r
+
 
 ## Build or load
 # Load the package [CTRL + SHIFT + L] or install-and-reload [CTRL + SHIFT + B]
