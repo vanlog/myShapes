@@ -79,8 +79,10 @@ usethis::use_test( "division" )
 usethis::use_vignette("ThisTidyPackage")
 devtools::build_vignettes()
 # Install the package and see it with `vignette("ThisTidyPackage")`
-# List your vignettes: vignette(package = 'cancRFDS')
-# Install your package manually: devtools::install(build_vignettes = TRUE)
+# List your vignettes: vignette(package = 'myShapes')
+# Install your package as developer: devtools::install(build_vignettes = TRUE)
+# Install your package from github: remotes::install_github('andreamelloncelli/myShapes', force = T, build_vignettes = T)
+# Install your pagkage from file install.packages('.', repos = NULL, force = T, build_vignettes = T)
 
 # Deploy ------------------------------------------------------------------
 

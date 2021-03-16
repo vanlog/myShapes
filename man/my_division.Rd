@@ -7,13 +7,15 @@
 my_division(x, y)
 }
 \arguments{
-\item{x}{numeric numerator}
+\item{x}{\link{numeric} numerator}
 
-\item{y}{numeric denominator}
+\item{y}{\link{numeric} denominator}
 }
 \value{
-numeric result of the division
+\link{numeric} result of the division
 }
 \description{
-This function divides x by y
+This function is an example of pure function. it is exported: the user of the
+package will be able to use it. It does not need to import packages: it does
+not require any other packages to operates.
 }
