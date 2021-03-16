@@ -46,7 +46,7 @@ install.packages("devtools", force = T)
 
 
 ## Add a package
-# usethis::use_package( "dplyr" )
+usethis::use_package( "dplyr" )
 # remeber to add it to ROXYGEN or NAMESPACE:
 #' @import dplyr  # ROXYGEN
 #' import(dplyr)  # NAMESPACE
