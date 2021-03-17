@@ -3,5 +3,6 @@
 export(FabioPiacenza)
 export(Francesco_triangle_area)
 export(average_mpg)
+export(francesca)
 export(my_division)
 import(dplyr)
