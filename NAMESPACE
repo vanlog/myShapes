@@ -3,6 +3,8 @@
 export(FabioPiacenza)
 export(Francesco_triangle_area)
 export(average_mpg)
+export(francesca)
 export(luca_square_root)
+export(ludovica_rectang_area)
 export(my_division)
 import(dplyr)
