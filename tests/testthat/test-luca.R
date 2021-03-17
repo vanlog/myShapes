@@ -1,3 +1,3 @@
 test_that("my square root works", {
-  expect_equal(my_sqrt(9), 3)
+  expect_equal(luca_square_root(9), 3)
 })
